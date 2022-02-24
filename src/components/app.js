@@ -27,7 +27,7 @@ export default class App extends Component {
 				<div id="app">
 					<Header />
 					<Router onChange={this.handleRoute}>
-						<Home path="https://calm-pond-0526ecb10.azurestaticapps.net/index.html" />
+						<Home path="/" />
 						<Blogs path="/blogs/" />
 						<Blog path="/blog/:name" />
 						<Contact path="/contact/" />
